@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="mark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6d2ff"/>
+      <stop offset="0.5" stop-color="#6da0ff"/>
+      <stop offset="1" stop-color="#3f6fd8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#6096ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#6096ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="#0b0e12"/>
+  <rect width="64" height="64" rx="14" fill="url(#glow)"/>
+
+  <g fill="url(#mark)" stroke="url(#mark)" stroke-width="2.20"
+     stroke-linejoin="round" stroke-linecap="round">
+    <path d="M32.00,25.80L37.37,28.90L37.37,35.10L32.00,38.20L26.63,35.10L26.63,28.90Z" />
+    <path d="M49.32,25.80L54.69,28.90L54.69,35.10L49.32,38.20L43.95,35.10L43.95,28.90Z" />
+    <path d="M40.66,40.80L46.03,43.90L46.03,50.10L40.66,53.20L35.29,50.10L35.29,43.90Z" />
+    <path d="M23.34,40.80L28.71,43.90L28.71,50.10L23.34,53.20L17.97,50.10L17.97,43.90Z" />
+    <path d="M14.68,25.80L20.05,28.90L20.05,35.10L14.68,38.20L9.31,35.10L9.31,28.90Z" />
+    <path d="M23.34,10.80L28.71,13.90L28.71,20.10L23.34,23.20L17.97,20.10L17.97,13.90Z" />
+    <path d="M40.66,10.80L46.03,13.90L46.03,20.10L40.66,23.20L35.29,20.10L35.29,13.90Z" />
+  </g>
+</svg>
